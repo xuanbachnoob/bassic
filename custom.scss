@@ -1,0 +1,72 @@
+body{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.red{
+    border: 1px solid red;
+}
+.green{
+    border: 2px solid rgb(64, 183, 64);
+}
+.backgound-image{
+    height: 865px;
+    background-image: url('banner-mobile.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:20px;
+}
+
+.about-sign{
+    height: 48px;
+    text-align: right;
+    margin-top: 40px;
+    .about-us, 
+    .sign-in{
+    text-decoration: none;
+    color: black;
+
+}
+.sign-in{
+    color:rgb(64, 183, 64);
+    margin-right: 180px;
+    margin-left: 34px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+}
+
+
+.logo{
+    text-align: center;
+    height: 240;
+    .img-logo{
+        margin-top: 120px;
+    }
+}
+
+.icon{
+    height: 100;
+    width: 100%;
+    display: block;
+    .icon-gift, .icon-clock, .icon-like{
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+    }
+    span{
+        display: block;
+        font-size: 28px;
+    }
+    .icon-gift{
+        margin-left: 210px;
+        margin-right: -200px;
+    }
+    .icon-clock{
+        margin-right: -219px;
+    }
+}
+
+.text{
+    
+}
